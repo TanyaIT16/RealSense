@@ -23,9 +23,12 @@ This repository includes a simple ROS 2 example for saving images from an Intel
    ```bash
    ros2 run realsense_image_saver capture_images
    ```
-   By default the node subscribes to `/color/image_raw` and saves images
+   By default the node subscribes to `/camera/color/image_raw` and saves images
    under the `images/` directory. Check the available image topics with
-   `ros2 topic list` and override `image_topic` if needed. You can also change
+   `ros2 topic list` and override `image_topic` if needed. Common topics from
+   the RealSense driver include `/camera/color/image_raw`,
+   `/camera/depth/image_rect_raw`, or namespaced versions like
+   `/camera/camera/color/image_raw`. You can also change
    the output directory using ROS parameters:
    ```bash
    ros2 run realsense_image_saver capture_images --ros-args \
