@@ -1,0 +1,12 @@
+package.xml
+setup.py
+realsense_image_saver/__init__.py
+realsense_image_saver/capture_images.py
+realsense_image_saver.egg-info/PKG-INFO
+realsense_image_saver.egg-info/SOURCES.txt
+realsense_image_saver.egg-info/dependency_links.txt
+realsense_image_saver.egg-info/entry_points.txt
+realsense_image_saver.egg-info/requires.txt
+realsense_image_saver.egg-info/top_level.txt
+realsense_image_saver.egg-info/zip-safe
+resource/realsense_image_saver

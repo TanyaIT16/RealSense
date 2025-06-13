@@ -1,0 +1,15 @@
+source;share/realsense_image_saver/hook/path.ps1
+source;share/realsense_image_saver/hook/path.dsv
+source;share/realsense_image_saver/hook/path.sh
+source;share/realsense_image_saver/hook/pythonpath.ps1
+source;share/realsense_image_saver/hook/pythonpath.dsv
+source;share/realsense_image_saver/hook/pythonpath.sh
+source;share/realsense_image_saver/hook/pythonscriptspath.ps1
+source;share/realsense_image_saver/hook/pythonscriptspath.dsv
+source;share/realsense_image_saver/hook/pythonscriptspath.sh
+source;share/realsense_image_saver/hook/ament_prefix_path.ps1
+source;share/realsense_image_saver/hook/ament_prefix_path.dsv
+source;share/realsense_image_saver/hook/ament_prefix_path.sh
+source;../../build/realsense_image_saver/share/realsense_image_saver/hook/pythonpath_develop.ps1
+source;../../build/realsense_image_saver/share/realsense_image_saver/hook/pythonpath_develop.dsv
+source;../../build/realsense_image_saver/share/realsense_image_saver/hook/pythonpath_develop.sh

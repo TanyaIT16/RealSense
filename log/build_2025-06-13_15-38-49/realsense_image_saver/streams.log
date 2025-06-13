@@ -1,0 +1,24 @@
+[0.490s] Invoking command in '/home/tanya/Escritorio/Real_sense/RealSense/build/realsense_image_saver': PYTHONPATH=/home/tanya/Escritorio/Real_sense/RealSense/build/realsense_image_saver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tanya/Escritorio/Real_sense/RealSense/install/realsense_image_saver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tanya/Escritorio/Real_sense/RealSense/build/realsense_image_saver/build --no-deps symlink_data
+[0.703s] running develop
+[0.840s] running egg_info
+[0.840s] creating realsense_image_saver.egg-info
+[0.840s] writing realsense_image_saver.egg-info/PKG-INFO
+[0.840s] writing dependency_links to realsense_image_saver.egg-info/dependency_links.txt
+[0.841s] writing entry points to realsense_image_saver.egg-info/entry_points.txt
+[0.841s] writing requirements to realsense_image_saver.egg-info/requires.txt
+[0.841s] writing top-level names to realsense_image_saver.egg-info/top_level.txt
+[0.841s] writing manifest file 'realsense_image_saver.egg-info/SOURCES.txt'
+[0.842s] reading manifest file 'realsense_image_saver.egg-info/SOURCES.txt'
+[0.842s] writing manifest file 'realsense_image_saver.egg-info/SOURCES.txt'
+[0.843s] running build_ext
+[0.844s] Creating /home/tanya/Escritorio/Real_sense/RealSense/install/realsense_image_saver/lib/python3.10/site-packages/realsense-image-saver.egg-link (link to .)
+[0.844s] Installing capture_images script to /home/tanya/Escritorio/Real_sense/RealSense/install/realsense_image_saver/bin
+[0.844s] 
+[0.844s] Installed /home/tanya/Escritorio/Real_sense/RealSense/build/realsense_image_saver
+[0.844s] running symlink_data
+[0.845s] creating /home/tanya/Escritorio/Real_sense/RealSense/install/realsense_image_saver/share/ament_index
+[0.845s] creating /home/tanya/Escritorio/Real_sense/RealSense/install/realsense_image_saver/share/ament_index/resource_index
+[0.845s] creating /home/tanya/Escritorio/Real_sense/RealSense/install/realsense_image_saver/share/ament_index/resource_index/packages
+[0.845s] symbolically linking /home/tanya/Escritorio/Real_sense/RealSense/build/realsense_image_saver/resource/realsense_image_saver -> /home/tanya/Escritorio/Real_sense/RealSense/install/realsense_image_saver/share/ament_index/resource_index/packages
+[0.845s] symbolically linking /home/tanya/Escritorio/Real_sense/RealSense/build/realsense_image_saver/package.xml -> /home/tanya/Escritorio/Real_sense/RealSense/install/realsense_image_saver/share/realsense_image_saver
+[0.865s] Invoked command in '/home/tanya/Escritorio/Real_sense/RealSense/build/realsense_image_saver' returned '0': PYTHONPATH=/home/tanya/Escritorio/Real_sense/RealSense/build/realsense_image_saver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tanya/Escritorio/Real_sense/RealSense/install/realsense_image_saver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tanya/Escritorio/Real_sense/RealSense/build/realsense_image_saver/build --no-deps symlink_data
