@@ -29,7 +29,10 @@ source install/setup.bash
    ```bash
    ros2 run realsense_image_saver capture_images
    ```
-   By default the node subscribes to `/camera/color/image_raw` and saves images under the `images/` directory. You can change the topic or output directory using ROS parameters:
+   By default the node subscribes to `/color/image_raw` and saves images
+   under the `images/` directory. Check the available image topics with
+   `ros2 topic list` and override `image_topic` if needed. You can also change
+   the output directory using ROS parameters:
    ```bash
    ros2 run realsense_image_saver capture_images --ros-args \
        -p image_topic:=/my/image/topic -p output_dir:=/path/to/save
