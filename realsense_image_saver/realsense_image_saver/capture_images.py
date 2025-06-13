@@ -15,7 +15,10 @@ class ImageSaver(Node):
 
     def __init__(self):
         super().__init__('image_saver')
-        self.declare_parameter('image_topic', '/color/image_raw')
+        # The RealSense launch files publish images under
+        # /camera/color/image_raw by default, so use that as the
+        # default topic.
+        self.declare_parameter('image_topic', '/camera/color/image_raw')
         self.declare_parameter('output_dir', 'images')
         self.declare_parameter('save_interval_sec', 0.0)
 

@@ -12,7 +12,8 @@ This repository includes a simple ROS 2 example for saving images from an Intel
 ## Building
 
 After cloning this repository into a ROS 2 workspace, build the package from the
-workspace root and source the environment:
+workspace root and source the environment. If `colcon` is missing, install it
+with `sudo apt install python3-colcon-common-extensions`:
 
 ```bash
 colcon build --symlink-install
@@ -28,7 +29,7 @@ source install/setup.bash
    ```bash
    ros2 run realsense_image_saver capture_images
    ```
-   By default the node subscribes to `/color/image_raw` and saves images under the `images/` directory. You can change the topic or output directory using ROS parameters:
+   By default the node subscribes to `/camera/color/image_raw` and saves images under the `images/` directory. You can change the topic or output directory using ROS parameters:
    ```bash
    ros2 run realsense_image_saver capture_images --ros-args \
        -p image_topic:=/my/image/topic -p output_dir:=/path/to/save
